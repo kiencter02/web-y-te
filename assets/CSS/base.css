@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: var(--font-1);
+}
+:root{
+    --color-1: #103178;
+    --color-2: #FFC800;
+    --color-3: #13a05d;
+    --color-4: #5b6c8f;
+    --color-5: #F1F2F6;
+    --font-1: --font: 'Inria Serif', serif;;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.button {
+    background: var(--color-4);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 45px;
+    border: 2px solid var(--color-4);
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  .button:hover {
+    color: var(--color-4);
+    background: white;
+    transition: all 0.3s ease-in-out;
+  }
+.button-1{
+    padding: 15px 45px;
+    color: white;
+    border-color: var(--color-2);
+    background: var(--color-2);
+    transition: all 0.3s ease-in-out;
+
+}
+.button-1:hover{
+    border:2px solid var(--color-2);
+    background: #FFF;
+    color: var(--color-2);
+    transition: all 0.3s ease-in-out;
+    
+}
+.button-2 {
+    background: var(--color-1);
+    border-color: var(--color-1);
+    transition: all 0.3s ease-in-out;
+    color: white;
+  }
+  
+  .button-2:hover {
+    color: var(--color-1);
+    background: #FFF;
+    transition: all 0.3s ease-in-out;
+  }
+.button-3{
+    background: var(--color-3);
+    border-color: var(--color-3);
+    transition: all 0.3s ease-in-out;
+    color: white;   
+    border: 2px solid var(--color-3);
+}
+  
